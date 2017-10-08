@@ -71,12 +71,15 @@ The Spring Boot Java component provides a rest webservice that can be either con
 
 - Message Type 1 – contains the details of 1 sale 
 	E.g apple at 10p.
+	
 	curl -X POST http://localhost:8080/sales/product/apple/units/10
 
 - Message Type 2 – contains the details of a sale and the number of occurrences of that sale. 
 	E.g 20 sales of apples at 10p each.
+	
 	curl -X POST http://localhost:8080/sales/product/apple/units/10/occurrences/20
 
 - Message Type 3 – contains the details of a sale and an adjustment operation to be applied to all stored sales of this product type. Operations can be add, subtract, or multiply. 
 	E.g Add 20p apples would instruct your application to add 20p to each sale of apples you have recorded.
+	
 	curl -X POST http://localhost:8080/sales/product/apple/units/5/operation/multiply/value/20
