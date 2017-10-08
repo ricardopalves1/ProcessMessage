@@ -65,3 +65,18 @@ It's possible to add an argument to increase this threshold as follows.
 Moreover, the cosume of memory was low and steady what is a good evidence, the tests had no leak of memory as we can see in the images "Overview.png" and "Non-Heap.png" within the jconsole folder. 
 
 Last but not least, the number of active threads over time and CPU usage were also steady and diminishing what is a good evidence of throughput and no deadlocks.
+
+# How to test it.
+The Spring Boot Java component provides a rest webservice that can be either consumed through GET or POST methods, and the Docker container exposes it at the port 8080. For instance:
+
+- Message Type 1 – contains the details of 1 sale 
+	E.g apple at 10p.
+	curl -X POST http://localhost:8080/sales/product/apple/units/10
+
+- Message Type 2 – contains the details of a sale and the number of occurrences of that sale. 
+	E.g 20 sales of apples at 10p each.
+	curl -X POST http://localhost:8080/sales/product/apple/units/10/occurrences/20
+
+- Message Type 3 – contains the details of a sale and an adjustment operation to be applied to all stored sales of this product type. Operations can be add, subtract, or multiply. 
+	E.g Add 20p apples would instruct your application to add 20p to each sale of apples you have recorded.
+	curl -X POST http://localhost:8080/sales/product/apple/units/5/operation/multiply/value/20
