@@ -13,7 +13,7 @@ or
 
 docker run --name processmessage -p 8080:8080 ricardopalves1/processmessage
 
-	(according to http://hub.docker.com/r/ricardopalves1/processmessage/)
+(according to http://hub.docker.com/r/ricardopalves1/processmessage/)
 
 # Java version
 This component is compliance with Java 8.
