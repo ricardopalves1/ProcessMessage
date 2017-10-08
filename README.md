@@ -82,4 +82,4 @@ The Spring Boot Java component provides a rest webservice that can be either con
 - Message Type 3 – contains the details of a sale and an adjustment operation to be applied to all stored sales of this product type. Operations can be add, subtract, or multiply. 
 	E.g Add 20p apples would instruct your application to add 20p to each sale of apples you have recorded.
 	
-	curl -X POST http://localhost:8080/sales/product/apple/units/5/operation/multiply/value/20
+	curl -X POST http://localhost:8080/sales/product/apple/units/5/operation/add/value/20
