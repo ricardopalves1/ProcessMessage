@@ -59,8 +59,8 @@ This project has been analyzed with SonarQube and passed
 Although, the component just runs a 50 established number of messages. 
 It's possible to add an argument to increase this threshold as follows.
 
-For instance, 100 messages:
-	java -Dmax.msg.number=100 -XX:-UseParallelGC -XX:ParallelGCThreads=4 -jar ProcessMessage-1.0.jar
+	For instance, 100 messages:
+		java -Dmax.msg.number=100 -XX:-UseParallelGC -XX:ParallelGCThreads=4 -jar ProcessMessage-1.0.jar
 
 Moreover, the cosume of memory was low and steady what is a good evidence, the tests had no leak of memory as we can see in the images "Overview.png" and "Non-Heap.png" within the jconsole folder. 
 
