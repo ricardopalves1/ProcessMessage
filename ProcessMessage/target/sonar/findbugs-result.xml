@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.0-RC2" sequence="0" timestamp="1507452128000" analysisTimestamp="1507452322059" release="">
+  <Project>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/MainApplication.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/config/JerseyConfig.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/config/MainConfig.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/domain/Adjustment.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/domain/Product.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/domain/Sale.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/helper/ReportHelper.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/pool/BacklogWorker.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/queue/BacklogListener.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/rest/ISalesResource.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/rest/SalesError.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/rest/SalesResource.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/service/IMessageService.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/service/ISalesService.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/service/MessageServiceImpl.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/service/SalesServiceImpl.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/utils/Operation.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/utils/OperationEnum.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/utils/OperationValidator.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/src/main/java/com/app/msg/process/utils/SaleFactory.java</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/MainApplication.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/config/JerseyConfig.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/config/MainConfig.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/domain/Adjustment.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/domain/Product.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/domain/Sale.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/helper/ReportHelper.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/pool/BacklogWorker.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/queue/BacklogListener.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/rest/ISalesResource.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/rest/SalesError.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/rest/SalesResource.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/service/IMessageService.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/service/ISalesService.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/service/MessageServiceImpl.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/service/SalesServiceImpl.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/utils/Operation.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/utils/OperationEnum.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/utils/OperationValidator.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/utils/SaleFactory.class</Jar>
+    <Jar>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes/com/app/msg/process/utils/OperationEnum$1.class</Jar>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/boot/spring-boot-starter-activemq/1.5.7.RELEASE/spring-boot-starter-activemq-1.5.7.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.7.RELEASE/spring-boot-starter-1.5.7.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/boot/spring-boot/1.5.7.RELEASE/spring-boot-1.5.7.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.7.RELEASE/spring-boot-autoconfigure-1.5.7.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.7.RELEASE/spring-boot-starter-logging-1.5.7.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/spring-jms/4.3.11.RELEASE/spring-jms-4.3.11.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/spring-aop/4.3.11.RELEASE/spring-aop-4.3.11.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/spring-context/4.3.11.RELEASE/spring-context-4.3.11.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/spring-expression/4.3.11.RELEASE/spring-expression-4.3.11.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/spring-messaging/4.3.11.RELEASE/spring-messaging-4.3.11.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/spring-tx/4.3.11.RELEASE/spring-tx-4.3.11.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/apache/activemq/activemq-broker/5.14.5/activemq-broker-5.14.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/apache/activemq/activemq-client/5.14.5/activemq-client-5.14.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/apache/activemq/activemq-openwire-legacy/5.14.5/activemq-openwire-legacy-5.14.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/boot/spring-boot-starter-jersey/1.5.7.RELEASE/spring-boot-starter-jersey-1.5.7.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.5.7.RELEASE/spring-boot-starter-tomcat-1.5.7.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.20/tomcat-embed-core-8.5.20.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.20/tomcat-embed-el-8.5.20.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.20/tomcat-embed-websocket-8.5.20.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/boot/spring-boot-starter-validation/1.5.7.RELEASE/spring-boot-starter-validation-1.5.7.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/hibernate/hibernate-validator/5.3.5.Final/hibernate-validator-5.3.5.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.10/jackson-databind-2.8.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.10/jackson-core-2.8.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/jersey/core/jersey-server/2.25.1/jersey-server-2.25.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/jersey/core/jersey-common/2.25.1/jersey-common-2.25.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.25.1/jersey-guava-2.25.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/jersey/core/jersey-client/2.25.1/jersey-client-2.25.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.25.1/jersey-media-jaxb-2.25.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/hk2-api/2.5.0-b32/hk2-api-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/hk2-utils/2.5.0-b32/hk2-utils-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b32/aopalliance-repackaged-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/external/javax.inject/2.5.0-b32/javax.inject-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/hk2-locator/2.5.0-b32/hk2-locator-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.25.1/jersey-container-servlet-core-2.25.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.25.1/jersey-container-servlet-2.25.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/jersey/ext/jersey-bean-validation/2.25.1/jersey-bean-validation-2.25.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/jersey/ext/jersey-spring3/2.25.1/jersey-spring3-2.25.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/hk2/2.5.0-b32/hk2-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/config-types/2.5.0-b32/config-types-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/hk2-core/2.5.0-b32/hk2-core-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/hk2-config/2.5.0-b32/hk2-config-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/hk2-runlevel/2.5.0-b32/hk2-runlevel-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/class-model/2.5.0-b32/class-model-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/external/asm-all-repackaged/2.5.0-b32/asm-all-repackaged-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/hk2/spring-bridge/2.5.0-b32/spring-bridge-2.5.0-b32.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/2.25.1/jersey-media-json-jackson-2.25.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/glassfish/jersey/ext/jersey-entity-filtering/2.25.1/jersey-entity-filtering-2.25.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.8.10/jackson-jaxrs-base-2.8.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.8.10/jackson-jaxrs-json-provider-2.8.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.10/jackson-module-jaxb-annotations-2.8.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/.m2/repository/org/springframework/spring-core/4.3.11.RELEASE/spring-core-4.3.11.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/sonar/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/sonar/findbugs/jsr305.jar</AuxClasspathEntry>
+    <WrkDir>/Users/ricardopalvesjr/Development/workspace-sts/ProcessMessage/target/sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="5">
+    <MissingClass>accept</MissingClass>
+    <MissingClass>apply</MissingClass>
+    <MissingClass>get</MissingClass>
+    <MissingClass>getExitCode</MissingClass>
+    <MissingClass>test</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Sun, 8 Oct 2017 10:42:08 +0200" total_classes="21" referenced_classes="187" total_bugs="0" total_size="517" num_packages="9" java_version="1.8.0_102" vm_version="25.102-b14" cpu_seconds="17.70" clock_seconds="5.78" peak_mbytes="619.88" alloc_mbytes="3641.00" gc_seconds="0.03">
+    <FileStats path="com/app/msg/process/MainApplication.java" bugCount="0" size="19"/>
+    <FileStats path="com/app/msg/process/config/JerseyConfig.java" bugCount="0" size="6"/>
+    <FileStats path="com/app/msg/process/config/MainConfig.java" bugCount="0" size="30"/>
+    <FileStats path="com/app/msg/process/domain/Adjustment.java" bugCount="0" size="35"/>
+    <FileStats path="com/app/msg/process/domain/Product.java" bugCount="0" size="26"/>
+    <FileStats path="com/app/msg/process/domain/Sale.java" bugCount="0" size="44"/>
+    <FileStats path="com/app/msg/process/helper/ReportHelper.java" bugCount="0" size="24"/>
+    <FileStats path="com/app/msg/process/pool/BacklogWorker.java" bugCount="0" size="48"/>
+    <FileStats path="com/app/msg/process/queue/BacklogListener.java" bugCount="0" size="17"/>
+    <FileStats path="com/app/msg/process/rest/ISalesResource.java" bugCount="0" size="4"/>
+    <FileStats path="com/app/msg/process/rest/SalesError.java" bugCount="0" size="31"/>
+    <FileStats path="com/app/msg/process/rest/SalesResource.java" bugCount="0" size="24"/>
+    <FileStats path="com/app/msg/process/service/IMessageService.java" bugCount="0" size="3"/>
+    <FileStats path="com/app/msg/process/service/ISalesService.java" bugCount="0" size="6"/>
+    <FileStats path="com/app/msg/process/service/MessageServiceImpl.java" bugCount="0" size="32"/>
+    <FileStats path="com/app/msg/process/service/SalesServiceImpl.java" bugCount="0" size="68"/>
+    <FileStats path="com/app/msg/process/utils/Operation.java" bugCount="0" size="4"/>
+    <FileStats path="com/app/msg/process/utils/OperationEnum.java" bugCount="0" size="27"/>
+    <FileStats path="com/app/msg/process/utils/OperationValidator.java" bugCount="0" size="20"/>
+    <FileStats path="com/app/msg/process/utils/SaleFactory.java" bugCount="0" size="49"/>
+    <PackageStats package="com.app.msg.process" total_bugs="0" total_types="1" total_size="19">
+      <ClassStats class="com.app.msg.process.MainApplication" sourceFile="MainApplication.java" interface="false" size="19" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.app.msg.process.config" total_bugs="0" total_types="2" total_size="36">
+      <ClassStats class="com.app.msg.process.config.JerseyConfig" sourceFile="JerseyConfig.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.app.msg.process.config.MainConfig" sourceFile="MainConfig.java" interface="false" size="30" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.app.msg.process.domain" total_bugs="0" total_types="3" total_size="105">
+      <ClassStats class="com.app.msg.process.domain.Adjustment" sourceFile="Adjustment.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="com.app.msg.process.domain.Product" sourceFile="Product.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="com.app.msg.process.domain.Sale" sourceFile="Sale.java" interface="false" size="44" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.app.msg.process.helper" total_bugs="0" total_types="1" total_size="24">
+      <ClassStats class="com.app.msg.process.helper.ReportHelper" sourceFile="ReportHelper.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.app.msg.process.pool" total_bugs="0" total_types="1" total_size="48">
+      <ClassStats class="com.app.msg.process.pool.BacklogWorker" sourceFile="BacklogWorker.java" interface="false" size="48" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.app.msg.process.queue" total_bugs="0" total_types="1" total_size="17">
+      <ClassStats class="com.app.msg.process.queue.BacklogListener" sourceFile="BacklogListener.java" interface="false" size="17" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.app.msg.process.rest" total_bugs="0" total_types="3" total_size="59">
+      <ClassStats class="com.app.msg.process.rest.ISalesResource" sourceFile="ISalesResource.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="com.app.msg.process.rest.SalesError" sourceFile="SalesError.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="com.app.msg.process.rest.SalesResource" sourceFile="SalesResource.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.app.msg.process.service" total_bugs="0" total_types="4" total_size="109">
+      <ClassStats class="com.app.msg.process.service.IMessageService" sourceFile="IMessageService.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.app.msg.process.service.ISalesService" sourceFile="ISalesService.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="com.app.msg.process.service.MessageServiceImpl" sourceFile="MessageServiceImpl.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="com.app.msg.process.service.SalesServiceImpl" sourceFile="SalesServiceImpl.java" interface="false" size="68" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.app.msg.process.utils" total_bugs="0" total_types="5" total_size="100">
+      <ClassStats class="com.app.msg.process.utils.Operation" sourceFile="Operation.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="com.app.msg.process.utils.OperationEnum" sourceFile="OperationEnum.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="com.app.msg.process.utils.OperationEnum$1" sourceFile="OperationEnum.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.app.msg.process.utils.OperationValidator" sourceFile="OperationValidator.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.app.msg.process.utils.SaleFactory" sourceFile="SaleFactory.java" interface="false" size="49" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="606" invocations="1228" avgMicrosecondsPerInvocation="493" maxMicrosecondsPerInvocation="33961" standardDeviationMicrosecondsPerInvocation="1326"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="388" invocations="1238" avgMicrosecondsPerInvocation="314" maxMicrosecondsPerInvocation="1668" standardDeviationMicrosecondsPerInvocation="133"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="299" invocations="187" avgMicrosecondsPerInvocation="1600" maxMicrosecondsPerInvocation="44821" standardDeviationMicrosecondsPerInvocation="4209"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="268" invocations="187" avgMicrosecondsPerInvocation="1438" maxMicrosecondsPerInvocation="34489" standardDeviationMicrosecondsPerInvocation="3604"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="159" invocations="462" avgMicrosecondsPerInvocation="345" maxMicrosecondsPerInvocation="3390" standardDeviationMicrosecondsPerInvocation="426"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="129" invocations="1180" avgMicrosecondsPerInvocation="109" maxMicrosecondsPerInvocation="33706" standardDeviationMicrosecondsPerInvocation="999"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="104" invocations="187" avgMicrosecondsPerInvocation="557" maxMicrosecondsPerInvocation="17625" standardDeviationMicrosecondsPerInvocation="1594"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="95" invocations="121" avgMicrosecondsPerInvocation="789" maxMicrosecondsPerInvocation="74626" standardDeviationMicrosecondsPerInvocation="6747"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="90" invocations="187" avgMicrosecondsPerInvocation="484" maxMicrosecondsPerInvocation="15421" standardDeviationMicrosecondsPerInvocation="1357"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="90" invocations="319" avgMicrosecondsPerInvocation="283" maxMicrosecondsPerInvocation="25208" standardDeviationMicrosecondsPerInvocation="1531"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="89" invocations="108" avgMicrosecondsPerInvocation="832" maxMicrosecondsPerInvocation="11390" standardDeviationMicrosecondsPerInvocation="1433"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="86" invocations="121" avgMicrosecondsPerInvocation="711" maxMicrosecondsPerInvocation="32129" standardDeviationMicrosecondsPerInvocation="2926"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="82" invocations="109" avgMicrosecondsPerInvocation="752" maxMicrosecondsPerInvocation="19700" standardDeviationMicrosecondsPerInvocation="1995"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="79" invocations="105" avgMicrosecondsPerInvocation="761" maxMicrosecondsPerInvocation="5925" standardDeviationMicrosecondsPerInvocation="1102"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="75" invocations="109" avgMicrosecondsPerInvocation="689" maxMicrosecondsPerInvocation="20540" standardDeviationMicrosecondsPerInvocation="2098"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FormatStringChecker" totalMilliseconds="69" invocations="21" avgMicrosecondsPerInvocation="3293" maxMicrosecondsPerInvocation="62916" standardDeviationMicrosecondsPerInvocation="13339"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="68" invocations="187" avgMicrosecondsPerInvocation="368" maxMicrosecondsPerInvocation="8560" standardDeviationMicrosecondsPerInvocation="911"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="68" invocations="187" avgMicrosecondsPerInvocation="366" maxMicrosecondsPerInvocation="22416" standardDeviationMicrosecondsPerInvocation="1721"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="66" invocations="107" avgMicrosecondsPerInvocation="621" maxMicrosecondsPerInvocation="6355" standardDeviationMicrosecondsPerInvocation="962"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="65" invocations="108" avgMicrosecondsPerInvocation="610" maxMicrosecondsPerInvocation="9998" standardDeviationMicrosecondsPerInvocation="1216"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="61" invocations="21" avgMicrosecondsPerInvocation="2946" maxMicrosecondsPerInvocation="36711" standardDeviationMicrosecondsPerInvocation="8438"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="57" invocations="187" avgMicrosecondsPerInvocation="309" maxMicrosecondsPerInvocation="10447" standardDeviationMicrosecondsPerInvocation="919"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="51" invocations="21" avgMicrosecondsPerInvocation="2442" maxMicrosecondsPerInvocation="43880" standardDeviationMicrosecondsPerInvocation="9333"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="46" invocations="187" avgMicrosecondsPerInvocation="247" maxMicrosecondsPerInvocation="6486" standardDeviationMicrosecondsPerInvocation="653"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="38" invocations="74" avgMicrosecondsPerInvocation="515" maxMicrosecondsPerInvocation="3718" standardDeviationMicrosecondsPerInvocation="552"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="35" invocations="187" avgMicrosecondsPerInvocation="188" maxMicrosecondsPerInvocation="5032" standardDeviationMicrosecondsPerInvocation="487"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

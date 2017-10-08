@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.app.msg.process.helper.ReportHelperTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.546 sec - in com.app.msg.process.helper.ReportHelperTest

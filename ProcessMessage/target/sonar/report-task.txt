@@ -1,0 +1,6 @@
+projectKey=com.app.msg.process:ProcessMessage
+serverUrl=http://localhost:9000
+serverVersion=6.5.0.27846
+dashboardUrl=http://localhost:9000/dashboard/index/com.app.msg.process:ProcessMessage
+ceTaskId=AV77KR4ygWfwOsah3YDc
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AV77KR4ygWfwOsah3YDc
