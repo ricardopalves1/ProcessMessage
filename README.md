@@ -34,7 +34,7 @@ Therefore, tuning the Java GC also accordantly to this number improves the heap 
 		return factory;
 	}
 	
-Please, also reference the respective consumers count in "ConsumerCount.png" image within jconsole folder.
+Please, validate also the respective consumers count as in "ConsumerCount.png" image within jconsole folder.
 
 # Messaging server
 This component uses an embedded Apache ActiveMQ server.
