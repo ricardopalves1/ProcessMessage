@@ -1,2 +1,2 @@
 # ProcessMessage
-Message Processing Java Component.
+Message Processing Java Component
