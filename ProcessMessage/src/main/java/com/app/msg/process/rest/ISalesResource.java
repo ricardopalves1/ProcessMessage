@@ -3,7 +3,6 @@ package com.app.msg.process.rest;
 import javax.validation.Valid;
 import javax.ws.rs.BeanParam;
 import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
@@ -39,7 +38,6 @@ public interface ISalesResource {
 	 * @throws JmsException
 	 * @throws Exception
 	 */
-	@GET
 	@POST
 	@Path("/product/{type}/units/{units}")
 	public Response record(@Valid @PathParam("type") String type, @Valid @PathParam("units") Integer units)
@@ -60,7 +58,6 @@ public interface ISalesResource {
 	 * @throws JmsException
 	 * @throws Exception
 	 */
-	@GET
 	@POST
 	@Path("/product/{type}/units/{units}/occurrences/{occurrences}")
 	public Response recordMultiple(@Valid @PathParam("type") String type, @Valid @PathParam("units") Integer units,
@@ -81,7 +78,6 @@ public interface ISalesResource {
 	 * @throws JmsException
 	 * @throws Exception
 	 */
-	@GET
 	@POST
 	@Path("/product/{type}/units/{units}/operation/{operation}/value/{value}")
 	public Response recordSalesAdjustment(@Valid @PathParam("type") String type,
