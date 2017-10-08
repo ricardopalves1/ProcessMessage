@@ -66,7 +66,7 @@ Moreover, the cosume of memory was low and steady what is a good evidence, the t
 
 Last but not least, the number of active threads over time and CPU usage were also steady and diminishing what is a good evidence of throughput and no deadlocks.
 
-# How to test it.
+# How to use it.
 The Java Spring Boot component provides a rest webservice that can be consumed through POST methods.
 For instance:
 
