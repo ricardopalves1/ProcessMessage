@@ -33,3 +33,19 @@ Therefore, tuning the Java GC also accordantly to this number improves the heap 
 
 		return factory;
 	}
+
+# Messaging server
+This component uses an embedded Apache ActiveMQ server.
+
+	spring.activemq.broker-url=tcp://localhost:61616
+	
+# Logging
+This project uses SLF4j that has been configured for production site, in other words "ERROR" category.
+Nevertheless, the reports use "INFO" to print out the results in both console and log file outputs.
+
+	logging.file=./ProcessMessage.log
+	logging.pattern.console=%-40(%d{ISO8601} [%thread]) ProcessMessage %-5level %-60logger -%msg%n
+	logging.pattern.file=%-40(%d{ISO8601} [%thread]) ProcessMessage %-5level %-60logger -%msg%n
+	logging.level.com.app.msg.process=info
+	logging.level.=error
+	
