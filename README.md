@@ -7,13 +7,13 @@ Execute command as follows:
 
 java -XX:-UseParallelGC -XX:ParallelGCThreads=4 -jar ProcessMessage-1.0.jar
 
-(for optimal java tuning related to the number of available cores)
+	(for optimal java tuning related to the number of available cores)
 
 or
 
 docker run --name processmessage -p 8080:8080 ricardopalves1/processmessage
 
-(according to http://hub.docker.com/r/ricardopalves1/processmessage/)
+	(according to http://hub.docker.com/r/ricardopalves1/processmessage/)
 
 # Java version
 This component is compliance with Java 8.
@@ -49,3 +49,5 @@ Nevertheless, the reports use "INFO" to print out the results in both console an
 	logging.level.com.app.msg.process=info
 	logging.level.=error
 	
+# Quality assurance
+This project has been analyzed with SonarQube and passed (see "SonarQube.png" image).
