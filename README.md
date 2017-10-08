@@ -67,7 +67,7 @@ Moreover, the cosume of memory was low and steady what is a good evidence, the t
 Last but not least, the number of active threads over time and CPU usage were also steady and diminishing what is a good evidence of throughput and no deadlocks.
 
 # How to test it.
-The Spring Boot Java component provides a rest webservice that can be either consumed through GET or POST methods, and the Docker container exposes it at the port 8080. For instance:
+The Spring Boot Java component provides a rest webservice that can be consumed through POST methods. For instance:
 
 - Message Type 1 – contains the details of 1 sale 
 	E.g apple at 10p.
