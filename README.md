@@ -64,4 +64,4 @@ It's possible to add an argument to increase this threshold as follows.
 
 Moreover, the cosume of memory was low and steady what is a good evidence, the tests had no leak of memory as we can see in the images "Overview.png" and "Non-Heap.png" within the jconsole folder. 
 
-Last but not least, the number of active threads over time and CPU usage were also steady and decreasing what is a good evidence of throughput and no deadlocks.
+Last but not least, the number of active threads over time and CPU usage were also steady and diminishing what is a good evidence of throughput and no deadlocks.
