@@ -20,7 +20,7 @@ This component is compliance with Java 8.
 
 # Java tuning
 This component uses a consumers thread pool according to the number of processors available on the system.
-Therefore, tuning the Java GC also accordantly to this number improves the heap objects release task.
+Therefore, tuning the Java GC also accordingly to this number improves the heap objects release task.
 
 	@Bean
 	public DefaultJmsListenerContainerFactory jmsListenerContainerFactory() {
